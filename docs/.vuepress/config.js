@@ -1,5 +1,4 @@
-const moment = require('moment');
-
+const moment = require('moment')
 
 module.exports = {
   title: 'hahg的简易博客',
@@ -14,11 +13,12 @@ module.exports = {
       '@vuepress/last-updated',
       {
         transformer: (timestamp) => {
-          moment.locale(zh-cn)
+          moment.locale(zh - cn)
           return moment(timestamp).format('LLLL')
-        }
-      }
+        },
+      },
     ],
+  ],
   themeConfig: {
     logo: '/assets/img/logo.png',
     //左侧菜单栏图标
