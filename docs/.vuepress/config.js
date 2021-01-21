@@ -1,6 +1,7 @@
 const moment = require('moment')
 
 module.exports = {
+  base:'/docs/',
   title: 'hahg的简易博客',
   description: 'hahg的简易博客',
   head: [
