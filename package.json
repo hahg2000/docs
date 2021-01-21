@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahg2000/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hahg2000/docs/issues"
+  },
+  "homepage": "https://github.com/hahg2000/docs#readme",
+  "devDependencies": {
+    "vuepress-plugin-auto-sidebar": "^1.5.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
