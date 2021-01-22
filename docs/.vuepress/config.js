@@ -4,7 +4,6 @@ const pluginsConf = require('./config/pluginsConf')
 const navConf = require('./config/navConf')
 
 
-
 module.exports = {
   base: '/docs/',
   title: 'hahg的简易博客',
