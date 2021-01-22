@@ -62,6 +62,7 @@ module.exports = {
       clientSecret: '99efbef670b6e48c3fbc3d2406045694b61b75d8',
       autoCreateIssue:true
     },
+    '@vuepress/back-to-top':true
   },
   themeConfig: {
     logo: '/assets/img/logo.png',
