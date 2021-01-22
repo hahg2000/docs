@@ -1,9 +1,9 @@
-const moment = require('moment')
+
 const headConf = require('./config/headConf')
 const pluginsConf = require('./config/pluginsConf')
 const navConf = require('./config/navConf')
 
-moment.locale('zh-cn')
+
 
 module.exports = {
   base: '/docs/',
